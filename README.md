@@ -62,7 +62,7 @@ tsconfig.json
 tailwind.config.ts
 
 Key Features
-✔ Campaign Table
+1. Campaign Table
 
 Search by name or ID
 
@@ -72,7 +72,7 @@ Sort by name, clicks, cost, impressions
 
 Click a row to open detailed creative view
 
-✔ Creative Detail View (CreativeCard)
+2. Creative Detail View (CreativeCard)
 
 Shows campaign banner image (image_url) or placeholder
 
