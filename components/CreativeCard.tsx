@@ -28,10 +28,8 @@ export function CreativeCard({ campaign }: CreativeCardProps) {
         <div className="h-32 w-56 overflow-hidden rounded-md bg-neutral-100 dark:bg-neutral-900">
           <img
             src={
-              // Campaign type currently doesn't include an image field — show placeholder
-              typeof (campaign as any).imageUrl === "string" &&
-              (campaign as any).imageUrl
-                ? (campaign as any).imageUrl
+              campaign.image_url
+                ? campaign.image_url
                 : `https://via.placeholder.com/600x300?text=${encodeURIComponent(
                     campaign.name
                   )}`
